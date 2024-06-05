@@ -1,0 +1,182 @@
+body {
+    background-color: #b1c7ad;
+}
+
+h1 {
+    background-color: #005a4e;
+    color: #ffffff; 
+}
+
+h2 {
+    background-color: #88a776;
+    color: #ffffff; 
+}
+
+h3 {
+    background-color: #a7b39b;
+}
+
+h4 {
+    background-color: #c0d6b2;
+}
+
+.buscador {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: #ffffff;
+    color: black;
+}
+
+.par, .par2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: #ffffff;
+    color: black;
+}
+
+#contenedor {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+nav {
+    background-color: #c3cabe;
+    height: 50px;
+}
+
+nav ul li {
+    float: left;
+    margin: 10px;
+}
+
+#contenido {
+    float: left;
+    background-color: #ffffff;
+    min-height: 700px;
+    width: calc(86% - 80px);
+    padding: 30px;
+    border: 1px solid black;
+}
+
+#aside {
+    float: right;
+    background-color: #005a38;
+    min-height: 100px;
+    width: calc(20.5% - 20px);
+    padding: 10px;
+}
+
+.separator {
+    clear: both;
+}
+
+/* Estilos para el menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(33, 83, 33, 0.5);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dddddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(251, 251, 251);
+}
+
+#mapaid {
+    /* height: 100vh;
+    width: 100vw; */
+    height: 700px;
+    width: 700px;
+}
+
+/* Selectores para la leyenda de leaflet-choropleth */
+.legend {
+    color: #555;
+    padding: 6px 8px;
+    font: 12px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.legend ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+.legend li {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+}
+
+.legend .min {
+    float: left;
+    padding-bottom: 6px;
+}
+
+.legend .max {
+    float: right;
+}
+
+/* Mapa geovisor */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+#mapaid {
+    height: 100vh;
+    width: 100vw;
+}
+
+#mapaid {
+    height: 80vh; /* Ajusta el tamaño del mapa al 80% de la altura de la ventana */
+    width: 100%;  /* El mapa ocupa el 100% del ancho del contenedor */
+    margin: 0 auto; /* Centra el mapa horizontalmente */
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 - Proyecto de tesis - 2024</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> 
+    <div id="contenedor">
+    <header>
+    <div align="center">
+        <h1 style="color:#ffffff;">Tarea 2 - Basado en el trabajo final de graduación</h1></div> 
+    
+        <div align="center">
+            <h2> "Seguimiento de la contaminación con nitratos en los acuíferos de la región 
+                norte de la provincia de Cartago mediante herramientas de software geoespacial." </h2> </div> </header>
+
+                 <nav> 
+                    <ul>
+                        <li><a href="index.html">Presentación del proyecto</a> </li>
+                        <li><a href="geovisor.html">Geovisor</a> </li>
+                        <li><a href="referencias.html">Referencias</a> </li>
+                    </ul>
+                 </nav>
+
+        <section id="contenido">
+            <article>
+                <h1> Resumen</h1>
+                <div align="justify">
+                    <p class="par"> La preservación de la calidad del agua es un aspecto crucial para la salud pública y
+                        la conservación del medio ambiente en Costa Rica. Sin embargo, en la región norte de Cartago, se
+                        ha detectado un problema emergente de contaminación del agua, específicamente por altas
+                        concentraciones de nitrato. Este estudio aborda esta problemática mediante el uso de
+                        herramientas
+                        geoespaciales para el monitoreo y la gestión de la calidad del agua.
+
+                    <p class="par"></p>El análisis preliminar revela que la contaminación por nitratos podría estar
+                    relacionada con
+                    actividades antropogénicas, como la agricultura intensiva y el manejo inadecuado de aguas
+                    residuales. Se propone la creación de una base de datos geoespaciales actualizada, que
+                    integre datos de teledetección y análisis multivariable, para identificar áreas afectadas y
+                    proponer medidas de mitigación.
+
+                    <p class="par">La viabilidad de este proyecto se sustenta en la colaboración con instituciones
+                        locales y
+                        el respaldo técnico del <a href="http://www.tec.ac.cr/">Instituto Tecnológico de Costa Rica</a>
+                        y la <a href="https://www.tudelft.nl/en/">Universidad Técnica de Delft</a>.
+                        Se espera que los resultados obtenidos no solo contribuyan a la comprensión de la contaminación
+                        por nitratos en la región, sino también a la formulación de políticas y acciones para garantizar
+                        un suministro de agua seguro y sostenible para las comunidades locales. Este estudio sienta las
+                        bases para futuras investigaciones en el campo de la gestión integrada de recursos hídricos y
+                        la protección del medio ambiente
+                    <p class="par">A partir de las bases de datos y los sistemas de información geográfica, se le
+                        proporcionará
+                        a la población una herramienta de bien común, con el fin de ayudar a solucionar la problemática
+                        que ha
+                        azotado al pueblo de Costa Rica, como lo es la recolección de datos con respecto a las
+                        inundaciones.
+                    </p>
+                </div>
+
+            </article>
+            <article>
+                <h1>Introducción</h1>
+                <div align="justify">
+                    <p class="par">Costa Rica es una nación que pone mucho énfasis en proteger
+                        su medio ambiente. El suministro de energía es prácticamente totalmente renovable y la
+                        deforestación se ha reducido a casi nada. La naturaleza está muy bien conservada con más de
+                        una cuarta parte del área de la tierra considerada protegida. La disponibilidad promedio anual
+                        de agua dulce per cápita en Costa Rica es una de las más altas del mundo según el Informe Bienal
+                        sobre Recursos de Agua Dulce (Gleick, 2011).
+                    <p class="par">En los últimos años, ciertas áreas en la región norte de Cartago, en el centro de
+                        Costa Rica, están teniendo problemas de contaminación en el suministro de agua. En los
+                        manantiales
+                        naturales se están midiendo altas concentraciones de nitrato por encima de 50 mg/L y están
+                        provocando
+                        riesgos para la salud de la población abastecida por estos manantiales. Por lo tanto, es
+                        importante
+                        determinar qué está causando estas contaminaciones de los cuerpos de agua y qué medidas
+                        adecuadas se
+                        pueden tomar para prevenir esta contaminación.
+                    <p class="par"></p>Uno de estos contaminantes del agua es el nitrato. Una alta concentración de
+                    nitrato
+                    en el agua potable genera riesgos para la salud (WHO (OMS), 2002). Por lo tanto, es importante saber
+                    de dónde provienen estos contaminantes y cómo reducirlos en el suministro de agua potable. El
+                    monitoreo
+                    de la calidad del agua es necesario para comprender el impacto de las actividades antropogénicas en
+                    la
+                    calidad de las aguas superficiales y subterráneas e identificar estrategias para proteger las
+                    fuentes
+                    de agua (Cyr-Gagnon y Rodriguez, 2021)
+                    <p class="par"></p>Con el avance tecnológico de las últimas décadas la conceptualización de las
+                    herramientas
+                    geoespaciales como programas informáticos diseñados para trabajar con datos que tienen una
+                    componente
+                    geográfica o espacial. Estas herramientas permiten recopilar, almacenar, manipular, analizar y
+                    visualizar
+                    información que está relacionada con ubicaciones específicas en la Tierra. La utilización de ellas
+                    en este
+                    proyecto permite ser una estrategia efectiva para el monitoreo y la gestión de la calidad del agua
+                    en los
+                    acuíferos de la región norte de la provincia de Cartago. Las herramientas geoespaciales permiten
+                    recopilar,
+                    analizar y visualizar datos geográficos, lo que puede ser de gran utilidad para identificar áreas
+                    potencialmente
+                    afectadas por la presencia de plaguicidas y tomar medidas adecuadas para mitigar sus efectos.
+                    <p class="par">La implementación de estas herramientas puede contribuir a la gestión sostenible de
+                        los
+                        acuíferos en la región norte de Cartago, facilitando la detección temprana de posibles problemas
+                        de
+                        contaminación por plaguicidas y promoviendo acciones preventivas y correctivas para proteger la
+                        calidad
+                        del agua y preservar el medio ambiente.</p>
+                </div>
+
+            </article>
+            <article>
+                <h2>Área de trabajo</h2>
+                <div align="justify">
+                    <p class="par">
+                        El área de investigación se define las comunidades de Cartago, Tierra Blanca, Oreamuno,
+                        Cipreses, Capellades y Paraíso .
+                        Esta es el área en la que se recopilan y analizan los datos.
+                    </p>
+                </div>
+                <br>
+
+                <h3>Tabla de Distritos</h3>
+                <style>
+                    table {
+                        width: 80%;
+                        border-collapse: collapse;
+                    }
+
+                    th,
+                    td {
+                        border: 1px solid black;
+                        padding: 7px;
+                        text-align: left;
+                    }
+
+                    th {
+                        background-color: #bcceb8;
+                    }
+                </style>
+                </head>
+
+                <body>
+                    <div align="center">
+                        <p class="par">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Código de Distrito</th>
+                                    <th>Nombre del Distrito</th>
+                                    <th>Código de Distrito</th>
+                                    <th>Nombre del Distrito</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>30103</td>
+                                    <td>Carmen</td>
+                                    <td>30602</td>
+                                    <td>Cervantes</td>
+                                </tr>
+                                <tr>
+                                    <td>30108</td>
+                                    <td>Tierra Blanca</td>
+                                    <td>30603</td>
+                                    <td>Capellades</td>
+                                </tr>
+                                <tr>
+                                    <td>30110</td>
+                                    <td>Llano Grande</td>
+                                    <td>30701</td>
+                                    <td>San Rafael</td>
+                                </tr>
+                                <tr>
+                                    <td>30201</td>
+                                    <td>Paraíso</td>
+                                    <td>30702</td>
+                                    <td>Cot</td>
+                                </tr>
+                                <tr>
+                                    <td>30202</td>
+                                    <td>Santiago</td>
+                                    <td>30703</td>
+                                    <td>Potrero Cerrado</td>
+                                </tr>
+                                <tr>
+                                    <td>30205</td>
+                                    <td>Llanos de Santa Lucia</td>
+                                    <td>30704</td>
+                                    <td>Cipreses</td>
+                                </tr>
+                                <tr>
+                                    <td>30206</td>
+                                    <td>Birrisito</td>
+                                    <td>30705</td>
+                                    <td>Santa Rosa</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>Fuente: <a href="https://www.snitcr.go.cr/ico_servicios_ogc"> IGN-SNIT (2024)</a></p>
+
+                        </p>
+                        <br>
+
+                        <div align="center">
+                            <p><img src="Datos/Mapas/Mapa_1.png" width="900"></p>
+                        </div>
+
+                        <div align="center">
+                            <em>Área de investigación, Elaboración propia, 2024
+                        </div> </em>
+
+                        </br>
+            </article>
+        </section>
+
+
+        <aside id="aside">
+            <h4 class="Búsqueda en Google">Búsqueda en Google</h4>
+            <form action="https://www.google.com/search" method="GET" target="_blank"> <!-- Agregar action y method -->
+                <input type="text" name="q"> <!-- Agregar el atributo name -->
+                <input type="submit" value="Buscar">
+            </form>
+        </aside>
+
+        <!-- Botón para ir a Google Maps -->
+        <div align="center">
+            <a href="https://www.google.com/maps" target="_blank">
+                <button>Ir a Google Maps</button>
+            </a>
+        </div>
+        </form>
+        </aside>
+        <div class="separator"></div>
+
+        <footer>
+            <div align="center">
+                <p class="par"></p>Elaborado por: Godofredo Rojas Mata.
+                Maestría Profesional en Sistemas de Información Geográfica y Teledetección
+                Universidad de Costa Rica - Universidad Nacional
+        </footer>
+    </div>
+
+    <script src="js/choropleth.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+
+    <script src="https://unpkg.com/georaster-layer-for-leaflet/dist/georaster-layer-for-leaflet.min.js"></script>
+
+    <script src="js/leaflet.wmslegend.js"></script>
+
+    </head>
+
+</body>
+
+</html>
